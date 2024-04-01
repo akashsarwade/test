@@ -1,0 +1,98 @@
+		-------CSRF-----------
+
+	CSRF stand for Cross site request forgery
+	we set some cookies on the web browser to the session between you and the linkdin
+ 	application on the server can be maintain
+
+ 	
+ 	----CORS---
+ 	Cross Origin Request Sharing
+ 	we have react application and it reat app will hit the backend service in spring boot service running on 9091 and react running on port 3000
+ 	cors by blocked
+ 	
+ 	Cross-Origin Resource Sharing (CORS) is a mechanism that allows web browsers 
+ 	to make cross-origin HTTP requests.It is used to control access to resources (e.g., APIs) hosted on different domains or origins. Here are a few reasons why CORS is used:
+Security: Browsers enforce a security policy called the Same-Origin Policy (SOP), which restricts web pages from making requests to a different origin than the one they were loaded from. This policy is in place to protect users from malicious scripts running on websites. CORS provides a way to relax the SOP selectively, allowing controlled cross-origin access while still maintaining security.
+API Integration: CORS is commonly used in web applications that need to integrate with APIs hosted on different domains. For example, if you have a frontend application hosted on example.com and you want to make API requests to api.example.com, the API server needs to enable CORS to allow the frontend application to access its resources.
+Single-Page Applications (SPAs): SPAs built with frameworks like React, Angular, or Vue often use APIs from different domains for data retrieval. CORS enables these SPAs to make cross-origin requests and consume data from various sources.
+
+Microservices Architecture: In a microservices architecture, different services may be hosted on separate domains. CORS allows these services to communicate with each other by specifying the allowed origins, methods, and headers for cross-origin requests.
+
+Third-Party Integrations: If your web application integrates with third-party services or APIs, CORS is essential to enable communication between your application and the third-party domain.
+
+It's important to note that CORS is enforced by web browsers, and the server hosting the resources must respond with appropriate CORS headers to allow or deny cross-origin requests. The headers define which origins are allowed to access the resources, which methods are allowed, and which headers can be included in the request.
+
+By using CORS, developers can securely and selectively enable cross-origin access, facilitating seamless integration between web applications and APIs hosted on different domains.
+ 	
+ 	
+ 	
+ 	Access-Control-Allow-Origin
+ 	Access-Control-Allow-Method
+ 	Access-Control-Allow-Headers
+ 	
+ 	
+ 	install nodJs and ReactJs  CLI
+ 	create react app-> npm i create-react-app coupon-react-client
+ 	
+ 	cd coupon-react-client
+ 	npm install axios-->is the library that is used in react and angular projects to make restfull backend calls 
+ 	
+ 	npm start
+ 	open localhost 3000
+ 	
+ 	
+ 	
+ 	-----Use Custome COnfiguration-------
+ 	
+ 	
+ 	---Security Testing---------
+ 	
+ 	Authentication
+ 	Authorosation
+ 	CSRF
+ 	CROS
+ 	spring-security-test
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	============OAuth=================
+ OAuth is a OpenAuthentication
+ 	and Authorization framework it allow one application to gain access users data within another application 
+ 	without user sharing his credentials
+ 	eg. tax finding website loginthrought fb login/google login
+ 	
+ 	
+ 	==Grant types==
+ 	Authorization code
+ 	Password
+ 	client credentials
+ 	Refresh token
+ 	
+ 	
+ 	
+ 	JWT=======
+ 	JSON Web Token 
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
